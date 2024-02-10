@@ -31,6 +31,7 @@ defmodule AssetStatusWeb.Endpoint do
     socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
     plug Phoenix.LiveReloader
     plug Phoenix.CodeReloader
+    plug AssetStatusWeb.CheckAssetStatusPlug
   end
 
   plug Phoenix.LiveDashboard.RequestLogger,

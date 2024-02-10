@@ -35,3 +35,4 @@ asset_status-*.tar
 npm-debug.log
 /assets/node_modules/
 
+/assets/esbuild_build_status
